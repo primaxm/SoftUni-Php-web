@@ -1,0 +1,15 @@
+<?php
+
+$ivan = new Kuku();
+$ivan->name = "Ivan";
+$ivan->Ivan();
+
+class Kuku {
+    public $name;
+    
+
+    public function Ivan() {
+        echo "kuku";
+        echo "bai $this->name";
+    }
+}
