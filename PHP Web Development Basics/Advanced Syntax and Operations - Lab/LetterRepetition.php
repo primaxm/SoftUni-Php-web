@@ -1,19 +1,20 @@
 <?php
 $string = readline();
-$input = str_split($string);
+//$input = str_split($string);
+$lenght = strlen($string);
 
 $arr = [];
 
-for ($i = 0; $i < count($input); $i++) {
-    if (array_key_exists(ord($input[$i]),$arr)) {
-        $arr[ord($input[$i])] += 1;
+for ($i = 0; $i < $lenght; $i++) {
+    if (array_key_exists($string[$i],$arr)) {
+        $arr[$string[$i]] += 1;
     } else {
-        $arr[ord($input[$i])] = 1;
+        $arr[$string[$i]] = 1;
     }
 }
 
 foreach ($arr as $key => $value) {
-    echo chr($key) . " -> $value\n";
+    echo $key . " -> $value\n";
 }
 
 /*foreach (count_chars($string, 1) as $key => $value) {
