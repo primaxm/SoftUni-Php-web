@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5fdd648-60c6-482b-b9a0-a1fead9b215b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Raw data/Car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Raw data/Cargo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Raw data/Engine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Raw data/RawData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Raw data/RawDataForJudge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Raw data/Tire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/01.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/02.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/CapitalCaseWords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/ColoringTexts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/FormData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/HTMLTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/NavigationBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/SortLines.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/SumTwoNumbers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/WordMapping.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/headings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/paragraphs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/todo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTTP and HTML Basic - Lab/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Introduction to MySQL - Lab/sql.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,12 +39,14 @@
         <counts>
           <entry key="html" value="8" />
           <entry key="php" value="201" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="8" />
           <entry key="PHP" value="201" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,13 +54,14 @@
           <entry key="dummy" value="10" />
           <entry key="html" value="451" />
           <entry key="php" value="25615" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="454" />
           <entry key="PHP" value="25612" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -91,7 +72,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction to MySQL - Lab/sql.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Opinion Poll/Person.php" />
         <option value="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Opinion Poll/OpinionPoll.php" />
         <option value="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Company Roster/Employee.php" />
         <option value="$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Company Roster/CompanyRoster.php" />
@@ -168,6 +158,7 @@
         <option value="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/NavigationBuilder.php" />
         <option value="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/HTMLTable.php" />
         <option value="$PROJECT_DIR$/HTTP and HTML Basic - Exercise/FormData.php" />
+        <option value="$PROJECT_DIR$/Introduction to MySQL - Lab/sql.txt" />
       </list>
     </option>
   </component>
@@ -298,15 +289,16 @@
       <workItem from="1538055823305" duration="17193000" />
       <workItem from="1538375526730" duration="27132000" />
       <workItem from="1538481697836" duration="78385000" />
-      <workItem from="1538813282728" duration="22742000" />
+      <workItem from="1538813282728" duration="23966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227469000" />
+    <option name="totallyTimeSpent" value="228693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2985437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -359,13 +351,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Opinion Poll/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions, Objects and Classes - Exercise/Company Roster/CompanyRoster.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -723,6 +708,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction to MySQL - Lab/sql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
