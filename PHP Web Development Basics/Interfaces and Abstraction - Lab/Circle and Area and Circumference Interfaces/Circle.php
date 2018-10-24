@@ -1,6 +1,6 @@
 <?php
 
-class Circle implements Area
+class Circle implements Area, Circumference
 {
     /**
      * @var float
@@ -25,10 +25,18 @@ class Circle implements Area
     }
 
     /**
+     * @return float|int
+     */
+    public function getCircumference(){
+        return 2 * pi() * $this->radius;
+    }
+
+    /**
      * @return string
      */
     public function __toString()
     {
-        return "Circle, radius = {$this->radius} mm, area = {$this->getSurface()} mm";
+        return "Circle with radius = {$this->radius} mm," . PHP_EOL . "Area = {$this->getSurface()} mm" .
+            PHP_EOL . "Circumference = {$this->getCircumference()} mm";
     }
 }
