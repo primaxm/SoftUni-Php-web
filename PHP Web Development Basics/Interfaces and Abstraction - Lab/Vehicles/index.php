@@ -45,7 +45,7 @@ for ($a = 0; $a < $n; $a++) {
 }
 
 
-echo "Car: " . number_format($car->getFuelQuantity(), 2) . PHP_EOL;
-echo "Truck: " . number_format($truck->getFuelQuantity(), 2) . PHP_EOL;
-echo "Bus: " . number_format($bus->getFuelQuantity(), 2);
+echo "Car: " . number_format($car->getFuelQuantity(), 2, ".", "") . PHP_EOL;
+echo "Truck: " . number_format($truck->getFuelQuantity(), 2, ".", "") . PHP_EOL;
+echo "Bus: " . number_format($bus->getFuelQuantity(), 2, ".", "");
 
