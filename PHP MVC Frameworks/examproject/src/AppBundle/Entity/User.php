@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints\Date;
 
@@ -114,6 +115,23 @@ class User
      */
     private $gender;
 
+
+    /**
+     * @var ArrayCollection | Searching[]
+     *
+     * Many Users have Many interests.
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Searching")
+     * @ORM\JoinTable(name="users_searching",
+     *      joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="searching_id", referencedColumnName="id")}
+     *      )
+     */
+    private $searchingFor;
+
+    public function __construct()
+    {
+        $this->searchingFor = new ArrayCollection();
+    }
 
     /**
      * Get id
@@ -331,6 +349,24 @@ class User
     public function setGender($gender)
     {
         $this->gender = $gender;
+    }
+
+    /**
+     * @return Searching[]|ArrayCollection
+     */
+    public function getSearchingFor()
+    {
+        return $this->searchingFor;
+    }
+
+    /**
+     * @param Searching[]
+     * @return User
+     */
+    public function setSearchingFor(ArrayCollection $searchingFor)
+    {
+        $this->searchingFor = $searchingFor;
+        return $this;
     }
 
 

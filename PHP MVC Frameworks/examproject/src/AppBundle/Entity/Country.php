@@ -46,8 +46,8 @@ class Country
 
     public function __construct()
     {
-        $cities = new ArrayCollection();
-        $users = new ArrayCollection();
+        $this->cities = new ArrayCollection();
+        $this->users = new ArrayCollection();
     }
 
     /**

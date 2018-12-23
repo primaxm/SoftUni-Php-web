@@ -38,7 +38,7 @@ class Gender
 
     public function __construct()
     {
-        $users = new ArrayCollection();
+        $this->users = new ArrayCollection();
     }
 
     /**

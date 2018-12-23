@@ -2,6 +2,7 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Searching;
 use AppBundle\Entity\User;
 use AppBundle\Form\UserType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -16,13 +17,15 @@ class UserController extends Controller
      * @return \Symfony\Component\HttpFoundation\Response
      *
      * @Route("/register", name="user_register")
+     * @throws \Exception
      */
     public function register(Request $request)
     {
         $user = new User();
+        $searching = new Searching();
         $form = $this->createForm(UserType::class, $user);
 
-/*        $form->handleRequest($request);
+        $form->handleRequest($request);
 
         //$birthDate = $request->request->all()['user']['birthDate'];
 
@@ -31,11 +34,10 @@ class UserController extends Controller
         $user->setLastLogin(new \DateTime("now"));
 
         if ($form->isSubmitted()) {
-            echo "kuku";
             $em = $this->getDoctrine()->getManager();
             $em->persist($user);
             $em->flush();
-        }*/
+        }
 
         return $this->render('default/index.html.twig', array(
             'user' => $user,

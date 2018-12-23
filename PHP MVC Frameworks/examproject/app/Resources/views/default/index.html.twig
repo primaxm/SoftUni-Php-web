@@ -10,6 +10,7 @@
             Birth Date: <input type="date" min="1918-01-01" max="2000-12-31" name="user[birthDate]"/><BR />
             Country: {{ form_widget(form.country) }}<BR />
             City: {{ form_widget(form.city) }}<BR />
+            Searching: {{ form_widget(form.searchingFor) }}<BR />
 
             <input type="hidden" name="_csrf_token" value="{{ csrf_token('register') }}"/>
             <input type="submit" value="Register"/>
