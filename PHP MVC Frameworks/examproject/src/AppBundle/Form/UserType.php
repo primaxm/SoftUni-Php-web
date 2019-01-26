@@ -33,11 +33,11 @@ class UserType extends AbstractType
                 'choice_label' => 'countryName',
                 'placeholder' => 'choose country',
             ])
-            ->add('city', EntityType::class, [
+/*            ->add('city', EntityType::class, [
                 'class' => 'AppBundle:City',
                 'choice_label' => 'cityName',
                 'placeholder' => 'choose city',
-            ])
+            ])*/
             ->add('gender', EntityType::class, [
                 'class' => 'AppBundle:Gender',
                 'choice_label' => 'gender',
